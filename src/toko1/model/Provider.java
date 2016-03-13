@@ -10,5 +10,20 @@ package toko1.model;
  * @author LenX
  */
 public class Provider {
+    private final String nama;
+    private final String telp;
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getTelp() {
+        return telp;
+    }
+
+    public Provider(String nama, String telp) {
+        this.nama = nama;
+        this.telp = telp;
+    }
     
 }

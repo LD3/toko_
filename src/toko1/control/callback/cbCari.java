@@ -10,5 +10,5 @@ package toko1.control.callback;
  * @author LenX
  */
 public interface cbCari {
-    
+    public void tulis(String s);
 }
